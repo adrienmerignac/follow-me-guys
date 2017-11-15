@@ -1,0 +1,53 @@
+{% extends "@FollowMeBundle/Resources/views/nav.html.twig" %}
+
+{% block title %}Liste des activités{% endblock %}
+
+{% block body %}
+
+<h1 style="text-align: center">Liste des activités</h1>
+
+<hr class="col-xs-10 col-xs-offset-1" />
+
+{% for follow_me in dating %}
+  <main class="col-xs-6 col-xs-offset-3"> 
+    <div class="list-group">
+      <a class="list-group-item list-group-item-action active" style="text-align: center">
+        <i class="glyphicon glyphicon-check" style="margin-right: .5em"></i> 
+        {{ follow_me.datingTitle }} 
+      </a>
+      <a class="list-group-item list-group-item-action" style="text-align: center">
+          <i class="glyphicon glyphicon-comment" style="margin-right: .5em"></i>
+          {{ follow_me.datingDescription }}
+      </a>  
+      <a class="list-group-item list-group-item-action" style="text-align: center">
+        <i class="glyphicon glyphicon-time" style="margin-right: .5em"></i>
+        Duration: {{ ((follow_me.getDatingEnd() - follow_me.getDatingStart())/ 3600)|number_format }} h
+      </a>
+      <a class="list-group-item list-group-item-action" style="text-align: center">
+        <i class="glyphicon glyphicon-calendar" style="margin-right: .5em"></i>
+        Début de l'activité: {{ follow_me.getDatingStart|date("d/m/y") }}
+      </a>
+      <a class="list-group-item list-group-item-action" style="text-align: center">
+        <i class="glyphicon glyphicon-time" style="margin-right: .5em"></i>
+        Heure de rendez-vous: {{ follow_me.getDatingStart|date("d/m/y") }}
+      </a>
+      <a href="{{ follow_me.datingLinkHref }}" class="list-group-item list-group-item-info" style="text-align: center">
+        <i class="glyphicon glyphicon-link" style="margin-right: .5em"></i>
+        Site officiel    
+      </a>
+      <a href="{{ follow_me.datingLinkTitle }}" class="list-group-item list-group-item-info" style="text-align: center">
+        <i class="glyphicon glyphicon-map-marker" style="margin-right: .5em"></i>
+        Lien Google Map
+      </a>
+    </div>
+  </main>
+{% endfor %}
+
+{% set results = dating %}
+
+{% include "@FollowMeBundle/Resources/views/_ui/page.html.twig" %}
+
+<hr class="col-xs-10" />
+<br />
+
+{% endblock %}

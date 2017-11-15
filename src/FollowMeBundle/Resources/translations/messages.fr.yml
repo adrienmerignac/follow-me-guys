@@ -1,0 +1,30 @@
+sign.up: Inscription
+sign.in: Connexion
+sign.out: Deconnexion
+sign.mail: Adresse Email
+sign.pswd: Mot de Passe
+sign.confirm: Confirmation
+sign.up.error: Mauvais identifiants
+sign.mail.error: Veuillez saisir l'adresse email
+sign.pswd.error: Veuillez saisir un mot de passe
+sign.pswd.carac.error: Le mot de passe doit contenir au moins 8 caractères
+sign.confirm.error: Veuillez confirmer
+sign.confirm.unvalid.error: Confirmation invalide
+sign.up.user.error: L'utilisateur existe déjà
+add.title: Titre de l'activité
+add.description: Description de l'activité
+add.dating.start: Début de l'activité
+add.dating.end: Duration
+add.dating.link: Lien vers site officiel
+add.dating.link.title: Lien vers l'activité
+add.btn: Ajouter
+add.title.error: Veuillez saisir un titre
+add.description.error: Veuillez saisir une description
+add.dating.start.error: Date de début invalide
+add.dating.end.error: Veuillez saisir une durée d'activité valide
+add.dating.link.error: Lien invalide
+add.dating.link.title.error: Lien invalide
+add.dating.error: Le formulaire n'est pas rempli
+activity: Activité
+dating: Liste des activités
+add.dating.time.start.error: Début d'activité invalide 

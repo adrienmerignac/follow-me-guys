@@ -1,0 +1,7 @@
+services:
+   follow_me.user:
+       class: FollowMeBundle\Entity\User
+       arguments: []
+   follow_me.dating:
+       class: FollowMeBundle\Entity\Dating
+       arguments: []

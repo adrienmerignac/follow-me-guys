@@ -1,0 +1,29 @@
+sign.up: Sign Up
+sign.in: Sign In
+sign.out: Log Out
+sign.mail: Mail Adress
+sign.pswd: Password
+sign.confirm: Confirm
+sign.up.error: Bad credentials
+sign.mail.error: Please enter a mail address
+sign.pswd.error: Please enter a password
+sign.pswd.carac.error: The password must contain at least 8 characters
+sign.confirm.error: Please confirm
+sign.confirm.unvalid.error: Unvalid confirmation
+sign.up.user.error: User already exist
+add.title: Date Title
+add.description: Activity Description
+add.dating.start: Dating Start
+add.dating.end: Dating End
+add.dating.link: Link to official website
+add.dating.link.title: Link to the dating
+add.btn: Add
+add.title.error: Enter a title
+add.description.error: Enter a description
+add.dating.start.error: Invalid beginning date
+add.dating.end.error: Invalid end of date
+add.dating.link.error: Unvalid link
+add.dating.link.title.error: Unvalid link
+add.dating.error: Empty form
+activity: Activity
+dating: Dating

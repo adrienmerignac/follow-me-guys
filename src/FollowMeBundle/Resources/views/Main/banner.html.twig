@@ -1,0 +1,18 @@
+
+<div  class="col-xs-6">
+    <h4>
+        Publiez une sortie et proposer aux membres de vous rejoindre
+    </h4>
+    <br />
+{% if app.session.get('id') %}
+    <a class="btn btn-info" href="{{ path('dating') }}">Dating</a></li>
+    <a class="btn btn-info glyphicon glyphicon-plus" href="{{ path('add') }}"></a>
+{% else %}
+    <a class="btn btn-info glyphicon glyphicon-log-in" href="{{ path('signin') }}"></a>
+    <a class="btn btn-info glyphicon glyphicon-send" href="{{ path('signup') }}"></a>
+{% endif %}
+
+</div>
+<div class="col-xs-6">
+    <img style="border-radius: 1em" src="{{ asset('bundles/followme/images/images.jpg') }}" />
+</div>
