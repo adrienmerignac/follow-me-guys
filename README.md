@@ -8,8 +8,10 @@ Follow-Me is a web api to share your outings with friends or anyone interested.
     Join the community by creating your user
     share your outings
     explore outings of your friends
-    
-![](https://raw.githubusercontent.com/adrienmerignac/follow-me-guys/master/resources/Capture%20d%E2%80%99%C3%A9cran%202017-11-16%20%C3%A0%2009.16.14.png)
+Screenshoot
+------------------------
+
+![](https://raw.githubusercontent.com/adrienmerignac/follow-me-guys/master/resources/Screenshot-2017-11-16%20Follow%20Me.png)
     
 Installation:
 ------------------------
