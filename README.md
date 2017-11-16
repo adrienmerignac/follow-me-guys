@@ -1,8 +1,7 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/70052363353e4ee7af8af85bb2c05967)](https://www.codacy.com/app/adrienmerignac/follow-me-guys?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=adrienmerignac/follow-me-guys&amp;utm_campaign=Badge_Grade)
 
 FOLLOW-ME
-
---------------
+----------------------
 
 Follow-Me is a web api to share your outings with friends or anyone interested.
 
