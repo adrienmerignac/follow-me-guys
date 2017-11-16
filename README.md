@@ -12,7 +12,11 @@ Screenshoot
 ------------------------
 
 ![](https://raw.githubusercontent.com/adrienmerignac/follow-me-guys/master/resources/Screenshot-2017-11-16%20Follow%20Me.png)
-    
+
+![](https://raw.githubusercontent.com/adrienmerignac/follow-me-guys/master/resources/Screenshot-2017-11-16%20Ajouter%20une%20activit%C3%A9.png)
+
+![](https://raw.githubusercontent.com/adrienmerignac/follow-me-guys/master/resources/Screenshot-2017-11-16%20Liste%20des%20activit%C3%A9s.png)
+
 Installation:
 ------------------------
 
